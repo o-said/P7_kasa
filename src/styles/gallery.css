@@ -56,8 +56,3 @@
     }
     
 }
-@media screen and (max-width: 600px) {
-    .appartment__details{
-        height: 120px;
-    }
-}

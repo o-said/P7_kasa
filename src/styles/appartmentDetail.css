@@ -90,6 +90,7 @@
         display:flex;
         flex-direction:row;
         margin-top:10px;
+        font-size: 14px;
     }
     .appartment__localisation .tag{
         display:flex;
@@ -108,7 +109,7 @@
     }
     .equipment-item{
         color: #ff6060;
-        font-size:14px;
+        font-size:18px;
     }
     .rate_count{
         width: 196px;
@@ -126,18 +127,24 @@
     }
     .appartment__content{
         display:flex;
-        flex-direction:column;
+        flex-direction:row;
         justify-content:center;
         align-items:center;
     }
     .appartment__content__details {
-        width:100%;
+        width:73%;
     }
     .appartment__content__comment{
         width:100%;
         display:flex;
-        flex-direction:row-reverse;
+        flex-direction:column;
         justify-content: space-between;
+    }
+    .appartment__content__comment__person{
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-end;
+        align-items:center;
     }
     .slide img{
         width: 100%;
@@ -147,25 +154,43 @@
     }
 }
 @media screen and (max-width: 580px) {
+    .appartment__content{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
     .appartment__content__details{
+        
         color: #FF6060;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
         line-height: 142.6%; /* 25.668px */
+        width:100%;
     }
     .appartment__content__details h1{
         width:100%;
-        font-size: 28px;
-        
-        
+        font-size: 28px;        
+    }
+    .appartment__content__comment{
+        width:100%;
+        display:flex;
+        flex-direction:row-reverse;
+        justify-content: space-between;
     }
     
     .appartment__content__comment__img img{
         width: 32px;
         height: 32px;
         flex-shrink: 0;
+    }
+    .appartment__content__comment__person{
+        margin-left:35px;
+    }
+    .appartment__localisation .tag{
+        min-width:85px;
     }
     .appartment__collapse{
         display:flex;
