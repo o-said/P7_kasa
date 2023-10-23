@@ -132,7 +132,7 @@
         align-items:center;
     }
     .appartment__content__details {
-        width:73%;
+        width:71%;
     }
     .appartment__content__comment{
         width:100%;
@@ -187,7 +187,7 @@
         flex-shrink: 0;
     }
     .appartment__content__comment__person{
-        margin-left:35px;
+        margin-left:13px;
     }
     .appartment__localisation .tag{
         min-width:85px;
