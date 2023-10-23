@@ -8,17 +8,17 @@
     }
     .header img{
         height: 68px;
-        padding-left:10px;
+        
     }
 }
 
 @media screen and (max-width:1080px) {
     .header{
-        padding:0 10px;
+        padding:0 20px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width:99%;
+        width:94%;
     }
     .header img {
         height:40px;
@@ -27,5 +27,6 @@
 @media screen and (max-width:576px) {
     .header{
         width:75%;
+        padding: 0 10px;
     }
 }

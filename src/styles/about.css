@@ -30,3 +30,8 @@
         margin: 40px auto 0;
     }
 }
+@media  screen and (max-width:1080px) {
+    .collapse__about{
+        width:95%;
+    }
+}
