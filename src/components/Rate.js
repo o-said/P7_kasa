@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/rate.css';
 import emptyStar from '../assets/emptyStar.svg';
 import fullStar from '../assets/fullStar.svg';
 

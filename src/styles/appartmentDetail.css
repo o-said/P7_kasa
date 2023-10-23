@@ -2,7 +2,6 @@
         .slide img{
         width: 100%;
         height: 100%;
-        -o-object-fit: cover;
         object-fit: cover;
         border-radius: 10px;
     }
@@ -121,7 +120,7 @@
     justify-content:space-between;
     }
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1080px) {
     .appartment__container{
         padding:0 10px;
     }
@@ -143,7 +142,6 @@
     .slide img{
         width: 100%;
         height: 420px;
-        -o-object-fit: cover;
         object-fit: cover;
         border-radius: 10px;
     }

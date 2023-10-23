@@ -62,7 +62,7 @@
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1080px) {
     .collapse{
         width: 354px;        
     }

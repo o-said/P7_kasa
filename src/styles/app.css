@@ -13,7 +13,6 @@
         line-height: 1.5;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-     
     }
     body {
         box-sizing: border-box;
@@ -28,7 +27,7 @@
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1080px) {
     body {
         padding-top: 20px;
     }

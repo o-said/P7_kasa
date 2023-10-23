@@ -23,12 +23,19 @@
         height: 39.444px;
     }
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1080px) {
     .footer{
         padding:0 0 62px 0;
         
     }  
     .footer__logo{
-        margin-top:20px;
+        margin-top:62px;
     } 
+    
+}
+@media screen and (max-width: 580px) {
+    .footer__logo{
+        margin-top:62px;
+    }
+    
 }

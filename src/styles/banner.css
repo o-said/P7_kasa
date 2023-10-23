@@ -23,7 +23,7 @@
     font-size: clamp(20px, 4vw, 48px); /* Ajout de point-virgule à la fin */
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1080px) {
   .banner{
     margin: 20px 10px 0 10px;
     height:225px;
