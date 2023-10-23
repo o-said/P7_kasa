@@ -1,0 +1,82 @@
+/* Ajout de styles pour l'animation */
+.collapse .collapse-content-wrapper {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 2s ease;
+}
+
+.collapse.isOpen .collapse-content-wrapper {
+    max-height: 100vh; /* Ou une autre valeur appropriée */
+    
+}
+
+@media screen and (max-width: 3048px) {
+    /* CSS pour le composant de collapse */
+    .collapse {
+        display: flex;
+        flex-direction: column;  
+        margin: 10px 0;
+        border-radius: 10px;
+        width: 582px;
+    }
+
+    .collapse-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: #ff6060;    
+        border-radius: 10px;
+    }
+
+    .collapse-header h3 {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 142.6%; /* 25.668px */
+        margin-left: 20px;        
+    }
+    .collapse-header span > svg {
+        width: 32px;
+        height: 32px;
+    
+        flex-shrink: 0;
+    }
+    .collapse-content {    
+        color: #FF6060;
+        font-family: 'Montserrat';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 142.6%; /* 25.668px */
+        border-radius: 10px;    
+        padding: 40px 12px 53px 20px;
+        background-color: #F7F7F7;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .collapse{
+        width: 354px;        
+    }
+    .collapse-header{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .collapse{
+        width: 100%;
+    }
+    .collapse__about{
+        padding: 0;
+        width: 354px;
+    }
+}

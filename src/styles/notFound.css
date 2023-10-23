@@ -1,0 +1,42 @@
+@media  screen and (max-width:3048px) {
+      .notFound__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1024px;
+    text-align: center;
+  }
+  .notFound__title {
+      font-family: 'Montserrat';
+    font-size: 288px;
+      font-weight: 700;
+      line-height: 410px;
+      color: #FF6060;
+      width: 597px;
+      height: 300px;
+      font-style: normal;
+      text-align:center ;
+  }
+  .notFound__text {
+    color: #FF6060;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 51.336px */
+    margin-top:66px;
+      
+  }
+  .notFound__link{
+    color: #FF6060;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 25.668px */
+    -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+    margin-top:182px;
+  }
+}

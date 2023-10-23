@@ -1,0 +1,35 @@
+
+@media  screen and (max-width:3048px) {
+    .nav {
+    display:flex;
+    justify-content: flex-end;
+    width: 309px;
+    height: 34px;
+    flex-shrink: 0;
+}
+.nav a {
+    color: #FF6060;
+text-align: right;
+font-family: 'Montserrat';
+font-size: clamp(12px,2.5vw,24px);
+font-style: normal;
+font-weight: 500;
+line-height: 34.22px ;
+text-decoration: none
+}
+.nav__link_about {
+    margin-left: 57px;
+}
+}
+@media screen and (max-width:950px) {
+    figure{
+        margin:0;
+    }
+    .nav{
+        width:90%;
+    }
+    .nav__link_about{
+        margin-left: 22px;        
+    }
+    
+}

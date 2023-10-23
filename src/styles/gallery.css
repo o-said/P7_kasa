@@ -1,0 +1,64 @@
+@media  screen and (max-width:3048px) {
+        .appartment {    
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+        justify-content: center;
+        background: #F6F6F6;
+        border-radius: 25px;
+        margin-top: 25px;
+        margin-bottom: 40px;
+        padding: 50px;
+        position: relative;
+    }
+    .appartment__details {
+        background-image: linear-gradient(180deg, #FF6060, #FF6060, #FF6060, #833131);
+        min-width: 280px;
+        width: 100%; 
+        border-radius: 10px;
+        cursor: pointer;
+        height: 340px;
+        overflow: hidden;
+        position: relative;
+    }
+    .appartment__details img {
+        width: 100%;
+        border-radius: 10px;
+        height: 100%;
+        -o-object-fit: cover;
+            object-fit: cover;
+    }
+    .appartment__details a{
+        color: inherit;
+        text-decoration: none;
+    }
+    .appartment__details h3{
+        bottom: 20px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        left: 20px;
+        position: absolute;
+        right: 20px;
+        z-index: 20;
+    }
+}
+@media screen and (max-width: 900px) {
+    .appartment{
+        padding: 10px;
+        grid-row-gap:25px;
+    }
+    .appartment__details{
+        height: 255px;
+    }
+    .appartment__details h3{
+        font-size: clamp(12px,3vw,18px);
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .appartment__details{
+        height: 120px;
+    }
+}
