@@ -3,7 +3,7 @@
     .nav {
     display:flex;
     justify-content: flex-end;
-    width: 309px;
+  
     height: 34px;
     flex-shrink: 0;
 }
@@ -25,9 +25,7 @@ text-decoration: none
     figure{
         margin:0;
     }
-    .nav{
-        width:90%;
-    }
+   
     .nav__link_about{
         margin-left: 22px;        
     }
