@@ -1,33 +1,28 @@
-
-@media  screen and (max-width:3048px) {
-    .nav {
-    display:flex;
+/* styles/nav.css */
+.nav {
+    display: flex;
     justify-content: flex-end;
-  
     height: 34px;
     flex-shrink: 0;
 }
+.nav__link_about{
+    margin-left: 20px;
+}
 .nav a {
     color: #FF6060;
-text-align: right;
-font-family: 'Montserrat';
-font-size: clamp(12px,2.5vw,24px);
-font-style: normal;
-font-weight: 500;
-line-height: 34.22px ;
-text-decoration: none
+    text-align: right;
+    font-family: 'Montserrat';
+    font-size: clamp(12px, 2.5vw, 24px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34.22px;
+    text-decoration: none;
 }
-.nav__link_about {
-    margin-left: 57px;
+
+.nav a.underline-on-click {
+    text-decoration: none;
 }
-}
-@media screen and (max-width:1080px) {
-    figure{
-        margin:0;
-    }
-   
-    .nav__link_about{
-        margin-left: 22px;        
-    }
-    
+
+.nav a.underline-on-click.active {
+    text-decoration: underline;
 }
