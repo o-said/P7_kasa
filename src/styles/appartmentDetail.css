@@ -74,7 +74,7 @@
         left: 100px;  
     }
     .appartment__content__details p{
-        font-family: 'Montserrat';;
+        font-family: 'Montserrat';
         font-size: 18px;
         font-weight: 500;
         line-height: 26px;
@@ -125,14 +125,19 @@
     .appartment__container{
         padding:0 10px;
     }
+    .appartment__content__comment__rate{
+        margin:0;
+    }
     .appartment__content{
         display:flex;
         flex-direction:row;
         justify-content:center;
         align-items:center;
+        
     }
     .appartment__content__details {
         width:71%;
+        height:120px;
     }
     .appartment__content__comment{
         width:100%;
@@ -145,6 +150,9 @@
         flex-direction:row;
         justify-content:flex-end;
         align-items:center;
+    }
+    .appartment__localisation{
+        margin-top:30px;
     }
     .slide img{
         width: 100%;
@@ -169,16 +177,21 @@
         font-weight: 500;
         line-height: 142.6%; /* 25.668px */
         width:100%;
+        height:80px;
+        margin-top:15px;
+        
     }
     .appartment__content__details h1{
         width:100%;
-        font-size: 28px;        
+        font-size: 18px;        
+        height:20;
     }
     .appartment__content__comment{
         width:100%;
         display:flex;
         flex-direction:row-reverse;
         justify-content: space-between;
+        margin-top:15px;
     }
     
     .appartment__content__comment__img img{
@@ -193,6 +206,9 @@
     .appartment__content__comment__name, .appartment__content__comment__rate{
         margin:0;
     }
+    .appartment__localisation{
+        margin-top:0px;
+    }
     .appartment__localisation .tag{
         min-width:85px;
     }
@@ -201,6 +217,10 @@
         flex-direction:column;
         justify-content:center;
         align-items:center;
+        margin-top:10px;
+    }
+    .equipment-item{
+        font-size:14px;
     }
     .slider{
         margin:0px auto;    }
@@ -211,5 +231,11 @@
         height:20px;
         justify-content:flex-start;
         gap:5px;
+    }
+    .appartment__content__comment__name span{
+        font-size: 12px;
+    }
+    .appartment__content__details p{
+        font-size: 12px;
     }
 }

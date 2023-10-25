@@ -14,7 +14,7 @@
     .collapse {
         display: flex;
         flex-direction: column;  
-        margin: 10px 0;
+        margin: 30px 0;
         border-radius: 10px;
         width: 582px;
     }
@@ -70,9 +70,16 @@
 @media screen and (max-width: 580px) {
     .collapse{
         width: 100%;
+        margin:10px 0;
     }
     .collapse__about{
         padding: 0;
         width: 354px;
+    }
+    .collapse-content{
+        font-size:14px;
+    }
+    .collapse-header h3{
+        font-size: 14px;
     }
 }
