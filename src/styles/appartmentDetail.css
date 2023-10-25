@@ -85,6 +85,7 @@
         height: 26px;
         top: 624px;
         left: 100px;
+        padding-bottom: 10%;
     }
     .appartment__localisation{
         display:flex;

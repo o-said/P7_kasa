@@ -40,6 +40,9 @@
 @media screen and (max-width: 580px) {  
     .footer__logo{
         margin-top:62px;
-    }    
+    } 
+    .footer__text{
+        font-size: 12px;
+    }   
 } 
     
