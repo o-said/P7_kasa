@@ -44,11 +44,11 @@ function AppartmentDetail() {
             {appartment && appartment.location} 
           </p>
           <div className="appartment__localisation">       
-             {appartment && appartment.tags.map((tag, index) => (
+              {appartment && appartment.tags.map((tag, index) => (
               <div key={index} className="tag">
                 {tag}
               </div>
-             )
+              )
             )}
           </div>
         </div>

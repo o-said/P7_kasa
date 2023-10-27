@@ -15,15 +15,16 @@ function Carroussel({ appartment }) {
     };
     return (
         <section className="slider">
+            <p className='slide__count'>{current + 1} / {length}</p> 
             {length > 1 && (
                 <IoIosArrowBack className="left-arrow" onClick={prevSlide} />
             )}
             {length > 1 && (
                 <IoIosArrowForward className="right-arrow" onClick={nextSlide} />
-            )}
-            <div className="slide active">
+            )}             
+            <div className="slide active">                  
                 <Link to={`/appartmentDetail/${appartment.id}`}>
-                    <img src={appartment.pictures[current]} alt={appartment.name} className="image__slide" />                   
+                    <img src={appartment.pictures[current]} alt={appartment.name} className="image__slide" />  
                 </Link>
             </div>
         </section>

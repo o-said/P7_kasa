@@ -15,17 +15,31 @@
     .slider>svg {
         position: absolute;
         top: 50%;
-        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
         width: 10%;
         height: 25%;
         fill: #fff;
         cursor: pointer;
-        z-index: 1;
+        z-index: 5;
     }
     .left-arrow{
         left: 0px;        
     }
     .right-arrow{
-        right: 25px;
+        right: 0px;
+    }
+    .slide__count{
+        position: absolute;
+        font-size: 18px;
+        z-index: 1;      
+        color: white;        
+        left:50%;
+        bottom: 10px;
+    }
+}
+@media  screen and (max-width:580px) {
+    .slide__count{
+        display:none;
     }
 }
